@@ -26,8 +26,8 @@ app.post('/login', async (req, res) => {
             service: 'gmail',
             auth: {
                 // user: 'login@xkcdproject.com',
-                user: 'xperiencepiro@gmail.com',
-                pass: 'tozr lugl sikd zrfx'
+                user: '',
+                pass: ''
             }
         });
 
